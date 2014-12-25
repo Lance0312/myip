@@ -6,4 +6,4 @@ if (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
     $myip = $_SERVER['REMOTE_ADDR'];
 }
 
-echo $myip;
+echo "haha " . $myip;
